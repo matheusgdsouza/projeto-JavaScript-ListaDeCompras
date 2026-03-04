@@ -24,6 +24,15 @@ botaoAdicionar.addEventListener("click", function (evento) {
     checkbox.id = `checkbox-${contatorItens}`; //Define um ID único para o checkbox usando o contador
     const textoItem = document.createElement("p"); //Cria um novo elemento "p" para o texto do item
     textoItem.textContent = itemLista; //Define o texto do item como o valor do input
+    checkbox.addEventListener("change", function() {
+        if (checkbox.checked) {
+            textoItem.style.textDecoration = "line-through";
+            textoItem.style.color = "gray"; // Dica visual extra
+        } else {
+            textoItem.style.textDecoration = "none";
+            textoItem.style.color = "black";
+        }
+    });
     const dataAtual = new Date(); //Pega a data atual
     const textoData = document.createElement("p"); //Cria um novo elemento "p" para o texto da data
     textoData.classList.add("texto-data"); //Adiciona a classe "texto-data" ao texto da data
