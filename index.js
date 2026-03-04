@@ -5,6 +5,7 @@ const listaDeCompras = document.getElementById("lista-de-compras");
 let contatorItens = 0; // Contador para gerar IDs únicos para os checkboxes
 
 
+
 //Adicionando um evento de click no botão "Adicionar"
 botaoAdicionar.addEventListener("click", function (evento) {
     evento.preventDefault(); // Evita que o formulário seja enviado, assim a pagina não da reload
@@ -37,4 +38,10 @@ botaoAdicionar.addEventListener("click", function (evento) {
     contatorItens++; // Incrementa o contador para o próximo item
     inputItem.value = ""; //Limpa o valor do input
 })
+
+inputItem.addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+        e.preventDefault(); // Impede o navegador de recarregar a página
+    }
+});
 
