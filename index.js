@@ -20,12 +20,19 @@ botaoAdicionar.addEventListener('click', function(evento) {
     containerLista.classList.add("lista-item-container");
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
-    checkbox.id = `checkbox-${contador}`;
+    checkbox.id = `checkbox-${contador++}`;
     const textoItem = document.createElement("p");
     textoItem.textContent = itemLista;
     containerLista.appendChild(checkbox);
     containerLista.appendChild(textoItem);
     novoItemLista.appendChild(containerLista);
+    let dataAtual = new Date();
+    const textoData = document.createElement("p");
+    textoData.classList.add("texto-data");
+    textoData.textContent = `Adicionado em ${dataAtual.toLocaleDateString()} às ${dataAtual.toLocaleTimeString()}`;
+    novoItemLista.appendChild(textoData);
+
+    listaDeCompras.appendChild(novoItemLista);
 
 
 // Limpando o campo de entrada após adicionar o item à lista
