@@ -46,6 +46,8 @@ botaoAdicionar.addEventListener("click", function (evento) {
 
     contatorItens++; // Incrementa o contador para o próximo item
     inputItem.value = ""; //Limpa o valor do input
+    let textoInicial = document.querySelector(".texto-inicial-lista"); // Seleciona o texto inicial da lista
+    textoInicial.textContent = ""; // Limpa o texto inicial da lista quando um item é adicionado
 })
 
 inputItem.addEventListener('keypress', function (e) {
