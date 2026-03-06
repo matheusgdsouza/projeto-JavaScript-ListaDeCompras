@@ -19,18 +19,11 @@ As técnicas e tecnologias utilizadas pra isso são:
 - `CSS`: estilização da aplicação;
 - `JavaScript`: construção de elementos dinâmicos através da manipulação do DOM.
 
-## 📁 Acesso ao projeto
 
-Você pode [acessar o código fonte do projeto inicial](https://github.com/alura-cursos/3801-javascript-para-web/tree/projeto-base) ou [baixá-lo](https://github.com/alura-cursos/3801-javascript-para-web/archive/refs/heads/projeto-base.zip).
+## 🌐 Deploy
 
-## 🛠️ Abrir e rodar o projeto
+Você pode acessar o projeto online através do link abaixo:
 
-Após baixar o projeto, você pode abrir com o Visual Studio Code. Para isso, no menu superior, clique em:
-
-- **File** > **Open Folder** (ou alguma opção similar)
-- Procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo)
-- Por fim clique em OK
-
-Ao finalizar esses passos, você pode executar a aplicação com a extensão Live Server 🏆 
+👉 **[https:[//SEU-LINK-DO-VERCEL.vercel.app]((https://projeto-java-script-lista-de-compra.vercel.app/))**
 
 
