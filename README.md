@@ -24,6 +24,6 @@ As técnicas e tecnologias utilizadas pra isso são:
 
 Você pode acessar o projeto online através do link abaixo:
 
-👉 **[https:[//SEU-LINK-DO-VERCEL.vercel.app]((https://projeto-java-script-lista-de-compra.vercel.app/))**
+👉 https://projeto-java-script-lista-de-compra.vercel.app/
 
 
